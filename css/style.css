@@ -114,7 +114,7 @@
 .header__img {
   position: relative;
   height: 100vh;
-  background-image: url("/dist/img/logo-1920.png");
+  background-image: url("./dist/img/logo-1920.png");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -220,11 +220,11 @@
     font-size: 60px;
   }
   .header__img {
-    background-image: url("/dist/img/logo-640.png");
+    background-image: url("./dist/img/logo-640.png");
   }
 }
 .about_heading {
-  background-image: linear-gradient(0.5turn, rgb(0, 0, 0), rgb(130, 0, 130), rgb(0, 0, 0));
+  background-image: linear-gradient(0.5turn, rgb(30, 0, 45), rgb(130, 0, 130), rgb(0, 0, 0));
   display: flex;
   align-items: center;
   justify-content: center;
@@ -240,7 +240,7 @@
 .about_heading .about__left {
   width: 50%;
   height: 500px;
-  background-image: url("/dist/img/ja.png");
+  background-image: url("./dist/img/ja.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -287,7 +287,7 @@
   text-align: center;
   padding: 50px;
   min-height: 100vh;
-  background-image: url("/dist/img/oferta-1920.png");
+  background-image: url("./dist/img/oferta-1920.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -304,7 +304,7 @@
 }
 .offerts h2 {
   display: inline-block;
-  font-size: 3.6rem;
+  font-size: 2.6rem;
   letter-spacing: 0.2rem;
   color: white;
 }
@@ -326,7 +326,7 @@
   cursor: pointer;
 }
 .offerts__box i {
-  font-size: 4rem;
+  font-size: 3rem;
   margin-bottom: 30px;
   border: 3px solid rgb(130, 0, 130);
   padding: 30px;
@@ -334,13 +334,13 @@
   transition: 0.3s;
 }
 .offerts__box h3 {
-  font-size: 3rem;
+  font-size: 2.2rem;
   font-weight: bold;
   margin: 0;
   margin-bottom: 20px;
 }
 .offerts__box p {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 .offerts__box:hover {
   background-color: rgb(130, 0, 130);
@@ -394,11 +394,11 @@
   margin: 0 20px;
 }
 .contact .contact-heading .social a {
+  font-size: 3rem;
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
 .contact .contact-heading .social a i {
-  font-size: 5rem;
   padding: 0.1em;
   transition: 0.3s;
 }
@@ -438,6 +438,21 @@
   .about_heading .about__right p {
     font-size: 1.6rem;
   }
+  .offerts h2 {
+    font-size: 2.6rem;
+  }
+  .offerts__box {
+    width: 100%;
+  }
+  .offerts__box i {
+    font-size: 3rem;
+  }
+  .offerts__box h3 {
+    font-size: 2.2rem;
+  }
+  .offerts__box p {
+    font-size: 1.4rem;
+  }
   .contact .contact-heading h2 {
     font-size: 2.6rem;
   }
@@ -456,28 +471,28 @@
     font-size: 1.8rem;
   }
   .offerts h2 {
-    font-size: 2.6rem;
-  }
-  .offerts__box {
-    width: 33.3333333333%;
-  }
-  .offerts__box i {
     font-size: 3rem;
   }
+  .offerts__box {
+    width: 50%;
+  }
+  .offerts__box i {
+    font-size: 3.5rem;
+  }
   .offerts__box h3 {
-    font-size: 2rem;
+    font-size: 2.4rem;
   }
   .offerts__box p {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   .contact .contact-heading h2 {
-    font-size: 2.6rem;
+    font-size: 3rem;
   }
   .contact .contact-heading p {
     font-size: 1.4rem;
   }
   .contact .contact-heading .social a i {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
 }
 @media (min-width: 1200px) {
@@ -488,28 +503,31 @@
     font-size: 2rem;
   }
   .offerts {
-    background-image: url("/dist/img/oferta-640.png");
+    background-image: url("./dist/img/oferta-640.png");
   }
   .offerts h2 {
-    font-size: 2.6rem;
+    font-size: 3.6rem;
+  }
+  .offerts__box {
+    width: 33.3333333333%;
   }
   .offerts__box i {
-    font-size: 3rem;
+    font-size: 4rem;
   }
   .offerts__box h3 {
-    font-size: 2rem;
+    font-size: 2.8rem;
   }
   .offerts__box p {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
   .contact .contact-heading h2 {
-    font-size: 2.6rem;
+    font-size: 3.6rem;
   }
   .contact .contact-heading p {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
   .contact .contact-heading .social a i {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 }
 .nav {
