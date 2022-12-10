@@ -114,7 +114,7 @@
 .header__img {
   position: relative;
   height: 100vh;
-  background-image: url("/dist/img/logo-1920.png");
+  background-image: url("./../img/logo-1920.png");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -220,7 +220,7 @@
     font-size: 60px;
   }
   .header__img {
-    background-image: url("/dist/img/logo-640.png");
+    background-image: url("./../img/logo-640.png");
   }
 }
 .about_heading {
@@ -240,7 +240,7 @@
 .about_heading .about__left {
   width: 50%;
   height: 500px;
-  background-image: url("/dist/img/ja.png");
+  background-image: url("./../img/ja.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -287,7 +287,7 @@
   text-align: center;
   padding: 50px;
   min-height: 100vh;
-  background-image: url("/dist/img/oferta-1920.png");
+  background-image: url("./../img/oferta-1920.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -503,7 +503,7 @@
     font-size: 2rem;
   }
   .offerts {
-    background-image: url("/dist/img/oferta-640.png");
+    background-image: url("./../img/oferta-640.png");
   }
   .offerts h2 {
     font-size: 3.6rem;
